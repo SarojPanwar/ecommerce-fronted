@@ -1,0 +1,18 @@
+* {
+scroll-behavior : smooth ;
+}
+
+.custom-img {
+  max-height: 650px; /* or any value that fits your layout */
+  width: 100%;        /* prevents stretching */
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;  /* optional: crops if needed */
+}
+
+.feature{
+    background-color: #8AB4F7;
+}
+ .text-capitalize:hover{
+    text-decoration: underline;
+ } 
