@@ -16,3 +16,9 @@ scroll-behavior : smooth ;
  .text-capitalize:hover{
     text-decoration: underline;
  } 
+ .new_product{
+  text-align: left;
+ }
+ .product-caption{
+  margin-top:5px;
+ }
