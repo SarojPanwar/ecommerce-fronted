@@ -22,3 +22,19 @@ scroll-behavior : smooth ;
  .product-caption{
   margin-top:5px;
  }
+
+ .product_img{
+  position: relative;
+ }
+ .new_product {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#cart .row{
+  background-image: linear-gradient(to right, #f8f2f0 0%, #b5abb2 50%, #9dcee3 75%);
+}
+.order-summary {
+   background-image: linear-gradient(to right, #f8f2f0 0%, #b5abb2 50%, #9dcee3 75%);
+}
