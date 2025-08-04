@@ -38,3 +38,45 @@ scroll-behavior : smooth ;
 .order-summary {
    background-image: linear-gradient(to right, #f8f2f0 0%, #b5abb2 50%, #9dcee3 75%);
 }
+
+.form{
+  background-image: linear-gradient(to right, #f8f2f0 0%, #b5abb2 50%, #9dcee3 75%);
+} 
+
+.imgAbout{
+display: inline-block;
+animation-name:image;
+animation-duration:3s;
+animation-delay:3s;
+animation-fill-mode:forwards;
+transition-property:all;
+transition-duration:1s;
+
+}
+@keyframes image{
+  0%{opacity:0;}
+  100%{opacity: 1;}
+}
+.imgAbout:hover{
+  transform:rotateY(180deg);
+}
+.service-card{
+transition:transform 0.2s ease-in-out;
+}
+.service-card:hover{
+  transform:scale(1.1);
+  border-color: black;
+  /* transform:translateY(-10px); */
+}
+.heading-form{
+  font-size: 30px;
+  font-weight: 30px;
+}
+.heading-form:hover{
+  text-decoration: underline;
+}
+
+
+
+
+  
