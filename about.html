@@ -47,9 +47,9 @@
 <a href="search.html" class="btn btn-sm btn-outline-primary">Search</a>
 </div>
 <div class="cart">
-  <a href="cart.html">
+  <a href="cart.html" class="card_update">
     <i class="fas fa-shopping-cart fa-2x"></i>
-    <span class="badge badge-pill badge-primary">24</span>
+    <span class="badge badge-pill badge-primary" id="cart-count">Cart(0)</span>
   </a>
 </div>
     
@@ -176,7 +176,7 @@
 
     <!-- </div> -->
      <div class="row mt-5">
-            <div class="service col-md-3 col-6">
+            <div class="service col-md-3 col-6 mb-2">
             <div class="border border-dark rounded shadow text-center p-3 service-card">
               <div class="mb-4">
                 <i class="far fa-credit-card fa-3x"></i>
@@ -186,7 +186,7 @@
               </div>
             </div>
             </div>
-            <div class="service col-md col-6 mt-small-2 mb-small-2">
+            <div class="service col-md-3 col-6  mb-2">
               <div class="border border-primary rounded shadow text-center p-3 service-card">
                 <div class="mb-4">
                   <i class="fas fa-laptop fa-3x"></i>
@@ -196,7 +196,7 @@
                 </div>
               </div>
             </div>
-            <div class="service col-md-3 col-6"> 
+            <div class="service col-md-3 col-6 mb-2"> 
               <div class="border border-success rounded shadow text-center p-3 service-card">
                 <div class="mb-4">
                   <i class="fas fa-shipping-fast  fa-3x"></i>
@@ -209,7 +209,7 @@
                 </div>
               </div>
             </div>
-            <div class="service col-md-3 col-6">
+            <div class="service col-md-3 col-6 mb-2">
               <div class="border border-danger rounded shadow text-center p-3 service-card">
                 <div class="mb-4">
                   <i class="fas fa-gifts fa-3x"></i>
@@ -230,16 +230,16 @@
   <footer>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 col-6 pl-5 pl-small-15">
+        <div class="col-md-3 col-12 pl-5 pl-small-15">
         <div class="footer_title">
           <a href="index.html"><img src="assets/images/Demo.png" width="150px" class="img img-fluid" alt="logo"></a>
         </div>
         <div>
-          Demo Company is your trusted destination for quality products, secure shopping, and great service. 
-          We’re committed to making your online shopping experience simple, safe, and satisfying.
+          Demo Company is your trusted destination for quality products, and great service. 
+          We’re committed to making your online shopping  simple and satisfying.
         </div>
       </div>
-      <div class="col-md-3 col=6">
+      <div class="col-md-3 col-12">
         <div class="footer_title pt-3 mb-3">
           <h3>Quick Links</h3>
         </div>
@@ -252,7 +252,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-3 col=6">
+      <div class="col-md-3 col-12">
         <div class="footer_title pt-3 mb-3">
           <h3>New Products</h3>
         </div>
@@ -265,7 +265,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-3 col=6">
+      <div class="col-md-3 col-12">
         <div class="footer_title pt-3 mb-3">
           <h3>Support</h3>
         </div>
@@ -301,5 +301,6 @@
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
 
+<script src="assets/js/common.js"></script>
   </body>
 </html>
