@@ -23,7 +23,17 @@ scroll-behavior : smooth ;
   margin-top:5px;
  }
 
- .product_img{
+ .product_img {
+  position: relative;
+}
+
+.new_product {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+ /* .product_img{
   position: relative;
  }
  .new_product {
@@ -31,7 +41,7 @@ scroll-behavior : smooth ;
     top: 0px;
     left: 0px;
     z-index: 1;
-}
+} */
 #cart .row{
   background-image: linear-gradient(to right, #f8f2f0 0%, #b5abb2 50%, #9dcee3 75%);
 }
@@ -108,6 +118,12 @@ gap:1.5rem;
 }
 
 /* category */
+
+.product_img img {
+  height: 200px; /* or whatever size fits your design */
+  object-fit: cover;
+}
+
 @media (max-width: 576px) {
   .single_product .product_img img {
     height: auto;
